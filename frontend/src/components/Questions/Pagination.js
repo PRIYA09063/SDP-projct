@@ -12,7 +12,8 @@ export default function Pagination({ postsPerPage, totalPosts, paginate }) {
             <ul className='pagination' aria-label="Page navigation example">
                 {pageNumbers.map(number => (
                     <li ClassName="page-item"><NavLink ClassName="page-link" onClick={() => paginate(number)}>{number}</NavLink></li>
-                ))}
+                ))
+                }
             </ul>
         </nav>
     )

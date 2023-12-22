@@ -170,6 +170,7 @@ export default function Content(props) {
 
                                 <div className="d-flex flex-row">
                                     <div class="d-flex flex-column col-md-0 mt-0 mx-0">
+                                        
                                         <button className='btn btn-white' id= {"upvote" + ans._id} onClick={(e) => upvote(e, ans._id)} Style="width:15px; border:none;"><i className="fa fa-caret-up" Style="font-size: 35px;"></i></button>
                                         <div className='mx-3'>{vote[ans._id]}</div>
                                         <button className='btn btn-white' id={"downvote" + ans._id} onClick={(e) => downvote(e, ans._id)} Style="width:15px; border:none;"><i className="fa fa-caret-down" Style="font-size: 35px;"></i></button>
